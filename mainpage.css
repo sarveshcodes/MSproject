@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body{
+	background-color: cyan;
+}
+
+
+.headingcontainer h1{
+	font-family:'Monoton',Times New Roman;
+	
+	
+	
+	
+	font-size: 50px;
+	color:red;
+	z-index: 2;
+	
+	position:relative;
+
+
+	
+}
+.headingcontainer{
+	position:relative;
+	overflow: hidden;
+    
+    margin:0 auto;
+    height:200px;
+	
+	width: 90%;
+}
+
+.headingcontainer img{
+	position:absolute;
+	opacity: 0.8;
+	z-index: 1;
+	top:0;
+	left:0;
+	
+    width: 100%;
+    
+    height: 400px;
+    z-index: 1;
+}
+.bttn{
+	border:none;
+	padding:10px;
+	width: 150px;
+	background-color: #ab4caf;
+	border-radius:20px;
+}
+.dropcontent{
+	display: none;
+	box-shadow
+}
+.dropcontent a{display:block;
+	background-color: #f5f5f5;
+	text-decoration: none;
+	font-family: Garamond;
+	padding: 15px;
+
+}
+.dropcontent:hover{
+	box-shadow: #111111;}
+.dropcontent a:hover{
+	
+	background-color:#AAAAAA;
+}
+.dropdown{display:inline-block;
+
+}
+.dropdown:hover .dropcontent{
+	display:block;
+}
